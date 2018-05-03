@@ -11,3 +11,8 @@ Scenario: The user is on Demoqa Website
 Given The user is on Demoqa Website
 When The user check hobby
 Then The user click check
+@tag3
+Scenario: The user is on Demoqa Website
+Given The user is on Demoqa Website
+When user clicks the dropdown menu
+Then user verifies whether the dropdown default value is same or not
